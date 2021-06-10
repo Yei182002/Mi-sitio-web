@@ -1,8 +1,6 @@
-p {
-    font-weight: bold;
-    font-family: 'Architects Daughter', cursive, sans-serif;
-}
-h1 {font-weight: bold;}
-
-h2 {font-family: 'Archit;ects Daughter', cursive}
-p {font-style: italic;}
+h1 {font-weight: bold;
+font-size: 50px;}
+ h2 {font-size: 30px;
+ font-style;}
+ p {font-family: 'Architects Daughter', cursive;
+ font-size: 30px;}
