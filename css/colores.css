@@ -1,0 +1,30 @@
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+.color-rojo {
+    color: red;
+}
+.color-verde {
+    color: rgb(0,255,0)
+}
+.color-naranja {
+    color: rgb(255,129,55);
+}
+.color-hexa {
+    color: #676823;
+}
+span {
+    font-size: 60px;
+    font-family: cursive;
+    font-weight: bold;
+    color: chartreuse;
+}
+h1 { 
+    font-family: fantasy;
+    font-size: 88px;
+    font-weight: bolder;
+    color: crimson;
+    
+}
