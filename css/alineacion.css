@@ -1,0 +1,22 @@
+body { 
+    margin: 4em;
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+p {
+    font-size: 1.4em;
+}
+.Alineacion-izquierda {
+    text-align: right;
+}
+.Alineacion-derecha {
+    text-align: left;
+}
+.Alineacion-centro { 
+    text-align: center;
+}
+.Alineacion-justifi {
+    text-align: justify;
+}

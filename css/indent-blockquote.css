@@ -1,0 +1,27 @@
+body {
+    margin: 0 4em
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+    text-align: justify;
+    font-size: 1.8em;
+}
+.texto-indent {
+    text-indent: 2em;
+}
+.letra-especial {
+    font-size: 3em;
+    line-height: 0.5em;
+}
+blockquote {
+    font-size: 1.8em;
+    font: italic;
+    color: rgb(23,65,74);
+    font-weight: 800;
+    font-family: 'Kirang Haerang', cursive;
+    text-align: right;
+   
+}
