@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+}
+table {
+    text-align: center;
+    margin: 0 auto;
+    border-collapse: collapse;
+    
+}
+td  {
+    border: 1px solid white;
+    padding: 15px;
+    background: floralwhite;
+}
+td {
+    background-color: rgb46, 34, 45);
+}
+.Titulo-ver {
+    background: gold;
+    font-size: 1.2em;
+    border-radius: 7%;
+    border: 0;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+}
+th {
+    width: 200px;
+}
+.Nombres {
+    border-right: white;
+    border-bottom: white;
+    border: white;
+    background: white;
+    font-weight: bold;
+}
+
