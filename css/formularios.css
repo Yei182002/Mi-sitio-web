@@ -1,0 +1,45 @@
+body {
+    background-image: linear-gradient(to right, #d46f11, #ebd93659);
+}
+h1 {
+    text-align: center;
+}
+fieldset {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+.k-formu {
+    width: 80%;
+    display: block;
+    margin: 25px auto;}
+
+    
+
+
+.control {
+    margin-bottom: 1.3em;
+    font-family: cursive;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+.control1 {
+    
+    font-size: 1.3em;
+    border-radius: 20px;
+    
+}
+label {
+    font-family: cursive;
+    border-radius: 20px;
+    
+    
+}
+.grande {
+    font-size: 20px;
+}
+.controlb {
+    
+   
+}
+

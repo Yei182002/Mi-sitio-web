@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+.grand {
+    
+    width: 230px;
+    margin: 0 auto;
+}
+.one {
+    text-align: center;
+    font-size: 20px;
+    background: rgb(141, 2, 2);
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 20px 20px 20px rgb(194, 83, 83);
+}
+.two, .three {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 15px 15px 20px;
+}
+.two {
+    background: tomato;
+    box-shadow: 10px 10px 10px rgb(44, 18, 14);
+}
+.three {
+    background: black;
+    box-shadow: 10px 10px 10px rgb(61, 60, 60);
+}
+
+.twos {
+    width: 400px;
+    margin: 0 auto;
+
+}
+.primero, .primeroa, .primerob {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 15px 15px 20px ;
+
+}
+.primero {
+   background: chartreuse;
+   box-shadow:  10px 10px 10px rgb(59, 112, 6);
+}
+.primeroa {
+    background: yellow;
+    box-shadow: 10px 15px 15px rgb(112, 112, 5);
+}
+.primerob {
+    background: rgb(78, 76, 76);
+    box-shadow: 10px 15px 10px rgb(165, 160, 160);
+}
+.mayor {
+    width: 552px;
+    margin: 0 auto;
+}

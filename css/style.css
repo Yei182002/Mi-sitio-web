@@ -1,8 +1,13 @@
-h1 {font-size: 180px;
-font-family: 'Bebas Neue';
+h1 {font-size: 150px;
+    font-family: cursive;
 font-weight: bold;
 text-align: center;
-color: red;
-
-
+color: maroon;
 }
+h2 {
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+    color: darkblue;
+}
+
