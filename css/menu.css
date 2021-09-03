@@ -9,7 +9,7 @@ nav {
 ul {
     list-style: none;
     position: absolute;
-    background: rgb(222, 8, 0);
+    background: rgb(19, 109, 11);
     width: 100%;
 }
 a {
@@ -25,12 +25,12 @@ a {
     text-align: right;
 }
 a:hover {
-    background: rgb(158, 3, 1);
-    transition: all .3s;
+    background: rgb(133, 100, 99);
+    transition: all .2s;
 }
 .sub-item {
     text-align: center;
-    transition: all 1.5s;
+    transition: all 1s;
     max-height: 0;
     background: 1px solid white ;
 }
@@ -39,24 +39,23 @@ a:hover {
     max-height: 500px;
     border-bottom: 1px solid white;
 }
-h1{ 
-    text-align: center;
-    margin-bottom: 1.9em;
+h1 { 
+    text-align: left;
     color: rgb(158, 3, 1);
     font-family: fantasy;
-    padding:  2em auto;
-    
-    
-
-
+    padding: 3em;
 }
 h2 {
     text-align: left;
     font-size: 30px;
     font-family: fantasy;
-    margin: 30px auto,
+    padding: auto;
+    margin-bottom: 20px;
 }
 .url {
     color: black;
+    font-size: 20px;
+    text-align: justify;
+    background: lemonchiffon;
 }
 
