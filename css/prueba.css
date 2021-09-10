@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p {
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    background: #FEFEFE;
+}
+.menu-bar {
+    display: none;
+}
+header {
+    width: 100%;
+}
+header nav {
+    background: #023859;
+    width: 100%;
+}
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+nav ul li :hover {
+    background: red;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+nav ul li .children {
+    display: none;
+    position: absolute;
+    background: rgb(28, 28, 77);
+    text-align: left;
+}
+nav ul li:hover .children {
+    display: block;
+
+    text-align: left;
+}
+nav ul li .children li {
+    overflow: hidden;
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255,.5);
+}
+nav ul li .children li a {
+    display: block;
+}
+nav ul li span {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+nav ul li .icon-chevron-small-down {
+    position: relative;
+    top: 3px;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 750px) { 
+    body {
+        padding-top: 68px;
+    }
+    .menu-bar {
+        display: block;
+        position: fixed;
+        width: 100%;
+        background: #023859;
+        top: 0;
+    }
+    .bt-menu {
+        display: block;
+        padding: 20px;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        text-decoration: none;
+        overflow: hidden;
+    }
+    .menu-bar span {
+        float: right;
+        font-size: 40px;
+    }
+header nav {
+    width: 80%;
+    position: fixed;
+    height: calc(100% - 80px);
+    background: #023859;
+    left: -100%;
+    overflow: scroll;
+}
+header nav ul {
+    text-align: center;
+}
+header nav ul li {
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255,.5);
+}
+header nav ul li a {
+    display: block;
+}
+header nav ul li .children {
+    position: relative;
+    width: 100%;
+}
+header nav ul li .children li a {
+    text-align: center;
+    padding-left: -10px;
+    background: #011c2cfa;
+}
+nav ul li .icon-chevron-small-down {
+    float: right;
+}
+nav ul li:hover .children {
+    display: none;
+}
+}
