@@ -1,20 +1,20 @@
 $(document).ready(main);
 
-var contador = 0;
+var contador = 1;
 
 function main() {
     $('.menu-bar').click(function() {
-        if (contador == 0) {
+        if (contador == 1) {
             $('nav').animated({
             left: '0'
         });
-        contador = 1;
+        contador = 0;
     }
     else {
         $('nav').animated({
             left: '-100%'
         });
-        contador = 0;
+        contador = 1;
     }
 });
 $('.sub-menu').click(function() {

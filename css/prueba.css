@@ -21,7 +21,7 @@ header {
     width: 100%;
 }
 header nav {
-    background: #023859;
+    background: #110441;
     width: 100%;
 }
 nav ul {
@@ -32,8 +32,8 @@ nav ul li {
     display: inline-block;
     position: relative;
 }
-nav ul li :hover {
-    background: red;
+nav ul li:hover {
+    background: rgb(153, 92, 92);
 }
 nav ul li a {
     display: block;
@@ -44,7 +44,7 @@ nav ul li a {
 nav ul li .children {
     display: none;
     position: absolute;
-    background: rgb(28, 28, 77);
+    background: rgb(5, 5, 58);
     text-align: left;
 }
 nav ul li:hover .children {
@@ -89,17 +89,18 @@ nav ul li .icon-chevron-small-down {
     .bt-menu {
         display: block;
         padding: 20px;
-        color: white;
+        color: rgb(241, 226, 3);
         font-size: 25px;
         font-weight: bold;
         text-decoration: none;
         overflow: hidden;
+        
     }
     .menu-bar span {
         float: right;
         font-size: 40px;
     }
-header nav {
+    header nav {
     width: 80%;
     position: fixed;
     height: calc(100% - 80px);
@@ -107,29 +108,29 @@ header nav {
     left: -100%;
     overflow: scroll;
 }
-header nav ul {
+    header nav ul {
     text-align: center;
 }
-header nav ul li {
+    header nav ul li {
     display: block;
     border-bottom: 1px solid rgba(255, 255, 255,.5);
 }
-header nav ul li a {
-    display: block;
+    header nav ul li a {
+        display: block;
 }
-header nav ul li .children {
-    position: relative;
-    width: 100%;
+    header nav ul li .children {
+        position: relative;
+        width: 100%;
 }
-header nav ul li .children li a {
-    text-align: center;
-    padding-left: -10px;
-    background: #011c2cfa;
+    header nav ul li .children li a {
+        text-align: center;
+        padding-left: -10px;
+        background: #011c2cfa;
 }
-nav ul li .icon-chevron-small-down {
-    float: right;
+    nav ul li .icon-chevron-small-down {
+        float: right;
 }
-nav ul li:hover .children {
+    nav ul li:hover .children {
     display: none;
 }
 }
