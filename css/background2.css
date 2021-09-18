@@ -2,12 +2,23 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: burlywood;
+}
+h1 {
+    padding-top: 110px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
 nav {
     width: 100%;
-    position: absolute;
+    background-color: rgb(66, 63, 63);
+    position: fixed;
     top: 0;
-    margin-top: 25px;
-}
+    padding: 10px;
+    z-index: 5;}
+    
 ul {
     text-align: right;
     list-style: none;
@@ -17,7 +28,7 @@ li {
 }
 a {
     text-decoration: none;
-    color: rgb(37, 25, 25);
+    color: rgb(255, 255, 255);
     margin:25px;
     font-size: 1.5em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -25,16 +36,21 @@ a {
 }
 a:hover {
     font-weight: 900;
-    font-size: 1.4em;
+    font-size: 1.3em;
     
 }
 .img-principal {
     width: 100%;
+    padding-top: 80px;
 }
+
 h2 {
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
     line-height: 1.5em;
     font-size: 3em;
+    z-index: 10;
 }
 p {
     font-size: 1.5em;
@@ -48,6 +64,11 @@ p {
 }
 .Listas {
     list-style: none;
+    display: block;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(223, 149, 54);
+    margin-bottom: 30px;
     
 }
 .box-historia {
