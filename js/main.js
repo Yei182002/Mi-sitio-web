@@ -1,23 +1,23 @@
 $(document).ready(main);
 
-var contador = 1;
+var contador = 0;
 
 function main() {
     $('.menu-bar').click(function() {
-        if (contador == 1) {
-            $('nav').animated({
-            left: '0'
-        });
-        contador = 0;
-    }
-    else {
-        $('nav').animated({
-            left: '-100%'
+        if (contador == 0) {
+            $('nav').animate({
+            left: '100%'
         });
         contador = 1;
     }
+    else {
+        $('nav').animate({
+            left: '-100%'
+        });
+        contador = 0;
+    }
 });
-$('.sub-menu').click(function() {
+$('.sub-menu').click(function(){
     $(this).children('.children').slideToggle();
   });
 }
