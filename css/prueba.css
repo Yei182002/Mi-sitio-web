@@ -84,8 +84,8 @@ nav ul li .icon-chevron-small-down {
         position: fixed;
         width: 100%;
         background: #023859;
-        top: 0;
-    }
+        top: 0;}
+    
     .bt-menu {
         display: block;
         padding: 20px;
@@ -96,6 +96,7 @@ nav ul li .icon-chevron-small-down {
         overflow: hidden;
         
     }
+    
     .menu-bar span {
         float: right;
         font-size: 40px;
