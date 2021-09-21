@@ -7,7 +7,7 @@
     width: 100%;
     height: 95vh;
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: right bottom;
 }
 body {
     background-image: url(../img/Pies\ ciudad.jpg);
@@ -32,15 +32,13 @@ body {
 nav {
      padding: 5px;
      background: rgb(31, 31, 54);
+     
 }
 ul {
     font-style: italic;
     font-family: cursive;
     font-size: 20px;
     text-align: right;
-    
-    
-    
 }
 li {
     display: inline-block;
