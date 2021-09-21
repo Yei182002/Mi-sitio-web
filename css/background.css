@@ -7,11 +7,7 @@
     width: 100%;
     height: 95vh;
     background-repeat: no-repeat;
-<<<<<<< HEAD
-    background-position: right bottom;
-=======
-    background-position: right bottom;
->>>>>>> menu-responsive
+    background-position: right top;
 }
 body {
     background-image: url(../img/Pies\ ciudad.jpg);
@@ -33,8 +29,6 @@ body {
         background-size: cover;
     }
 }
-<<<<<<< HEAD
-=======
 nav {
      padding: 5px;
      background: rgb(31, 31, 54);
@@ -44,9 +38,6 @@ ul {
     font-family: cursive;
     font-size: 20px;
     text-align: right;
-    
-    
-    
 }
 li {
     display: inline-block;
@@ -66,4 +57,3 @@ a:hover {
     padding: 20px;
     font-size: 20px;
 }
->>>>>>> menu-responsive
