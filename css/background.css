@@ -8,7 +8,6 @@
     height: 95vh;
     background-repeat: no-repeat;
     background-position: right top;
-
 }
 body {
     background-image: url(../img/Pies\ ciudad.jpg);
@@ -30,7 +29,6 @@ body {
         background-size: cover;
     }
 }
-
 nav {
      padding: 5px;
      background: rgb(31, 31, 54);
