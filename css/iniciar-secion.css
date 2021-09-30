@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.imagen {
+    background-image: url("../img/pexels-jessica-lynn-lewis-1010518.jpg");
+    width: 100%;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
