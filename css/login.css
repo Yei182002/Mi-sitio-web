@@ -7,13 +7,19 @@ body {
     height: 100vh;
   }
   h1 {
-      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      
   }
+
+ div {
+   border-radius: 45px;
+   box-shadow: 5px 
+ }
   .login-box {
     width: 320px;
     height: 420px;
     background: rgba(0, 0, 0, 0.9);
-    color: #fff;
+    color: rgb(255, 255, 255);
     top: 50%;
     left: 50%;
     position: absolute;
@@ -33,9 +39,9 @@ body {
   
   .login-box h1 {
     margin: 0;
-    padding: 0 0 20px;
+    padding: 0 0 10px;
     text-align: center;
-    font-size: 22px;
+    font-size: 30px;
   }
   
   .login-box label {
@@ -56,7 +62,7 @@ body {
     background: transparent;
     outline: none;
     height: 40px;
-    color: #fff;
+    color: rgb(245, 245, 245);
     font-size: 16px;
   }
   
@@ -64,25 +70,27 @@ body {
     border: none;
     outline: none;
     height: 40px;
-    background: #b80f22;
-    color: #fff;
+    background: #b81111;
+    color: rgb(255, 255, 255);
     font-size: 18px;
     border-radius: 20px;
   }
   
   .login-box input[type="submit"]:hover {
     cursor: pointer;
-    background: #ffc107;
-    color: #000;
+    background: #811717;
+    color: rgb(236, 226, 226);
+    font-size: 20px;
   }
   
   .login-box a {
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 20px;
-    color: darkgrey;
+    color: rgb(252, 252, 252);
+    font-weight: 600;
   }
   
   .login-box a:hover {
-    color: #fff;
+    color: rgb(116, 99, 99);
   }

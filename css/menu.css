@@ -2,21 +2,35 @@
     margin: 0 ;
     padding: 0 ;
 }
+ body {
+     background: url(../img/pexels-pixabay-220444.jpg) no-repeat center top;
+     background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+ }
 nav {
     cursor: pointer;
     padding: 0;
+    
+}
+.color {
+    text-overflow: clip;
+    color: rgb(78, 26, 80);
+    background-color: rgba(141, 141, 133, 0.2);
+
 }
 ul {
     list-style: none;
     position: absolute;
-    background: rgb(19, 109, 11);
     width: 100%;
+    
+    
 }
 a {
     display: block;
     text-decoration: none;
     color: white;
-    padding: 0 2.5em;
+    padding: 0.1em 2.9em;
 }
 .item {
     line-height: 3em;
@@ -25,12 +39,13 @@ a {
     text-align: right;
 }
 a:hover {
-    background: rgb(133, 100, 99);
-    transition: all .2s;
+    color: rgb(177, 10, 10);
+    transition: all .1s;
+    font-size: 16.1px;
 }
 .sub-item {
     text-align: center;
-    transition: all 1s;
+    transition: all 0.5s;
     max-height: 0;
     background: 1px solid white ;
 }
