@@ -44,10 +44,10 @@ nav {
      display: block;
      text-align: left;
  }
- @media only screen and (max-width: 700px) {
+ @media only screen and (max-width: 600px) {
      body {
-         padding-top: 68px;
-     }
+         padding-top: 60px;
+        }
     .menu-bar {
         display: block;
         position: fixed;

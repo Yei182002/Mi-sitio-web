@@ -6,7 +6,7 @@ function main() {
     $('.menu-bar').click(function() {
         if (contador == 0) {
             $('nav').animate({
-            left: '100%'
+            left: '0'
         });
         contador = 1;
     }

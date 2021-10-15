@@ -6,7 +6,8 @@
      background: url(../img/pexels-pixabay-220444.jpg) no-repeat center top;
      background-size: cover;
     font-family: sans-serif;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
  }
 nav {
     cursor: pointer;
@@ -15,7 +16,7 @@ nav {
 }
 .color {
     text-overflow: clip;
-    color: rgb(78, 26, 80);
+    color: rgb(0, 0, 0);
     background-color: rgba(141, 141, 133, 0.2);
 
 }
@@ -34,14 +35,14 @@ a {
 }
 .item {
     line-height: 3em;
-    display: inline-block;
+    display: block;
     position: relative;
-    text-align: right;
+    text-align: left;
 }
 a:hover {
-    color: rgb(177, 10, 10);
+    color: rgb(61, 60, 61);
     transition: all .1s;
-    font-size: 16.1px;
+    font-size: 16.px;
 }
 .sub-item {
     text-align: center;
