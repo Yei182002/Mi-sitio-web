@@ -12,7 +12,11 @@
 nav {
     cursor: pointer;
     padding: 0;
+    width: 100px;
+    height: 100%;
     
+}
+div {
 }
 .color {
     text-overflow: clip;
@@ -23,9 +27,8 @@ nav {
 ul {
     list-style: none;
     position: absolute;
-    width: 100%;
-    
-    
+    width: 100px;
+    height: 100px;
 }
 a {
     display: block;
