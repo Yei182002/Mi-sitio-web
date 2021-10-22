@@ -1,10 +1,11 @@
 * {
     margin: 0 ;
     padding: 0 ;
+   
 }
  body {
-     background: url(../img/pexels-pixabay-220444.jpg) no-repeat center top;
-     background-size: cover;
+      background: url(../img/pexels-pixabay-220444.jpg) no-repeat center top fixed;
+    background-size: cover;
     font-family: sans-serif;
     height: 100%;
     width: 100%;
@@ -12,11 +13,12 @@
 nav {
     cursor: pointer;
     padding: 0;
-    width: 100px;
-    height: 100%;
-    
+    background-position: left;
+    position: static;
 }
-div {
+.main-content {
+    background: coral;
+
 }
 .color {
     text-overflow: clip;
@@ -27,14 +29,20 @@ div {
 ul {
     list-style: none;
     position: absolute;
-    width: 100px;
-    height: 100px;
+    text-align: left;
+    background-position: right;
+}
+li{
+    background: rgb(3, 3, 44, .5);
+    
 }
 a {
     display: block;
     text-decoration: none;
     color: white;
     padding: 0.1em 2.9em;
+    width: 165px;
+    
 }
 .item {
     line-height: 3em;
@@ -47,34 +55,18 @@ a:hover {
     transition: all .1s;
     font-size: 16.px;
 }
-.sub-item {
+h1 {
     text-align: center;
-    transition: all 0.5s;
-    max-height: 0;
-    background: 1px solid white ;
 }
-.item:hover .sub-item {
-    display: block;
-    max-height: 500px;
-    border-bottom: 1px solid white;
+P{
+    width: 80%;
+    text-align: right;
+    padding-left: 260PX;
+    
 }
-h1 { 
-    text-align: left;
-    color: rgb(158, 3, 1);
-    font-family: fantasy;
-    padding: 3em;
-}
-h2 {
-    text-align: left;
-    font-size: 30px;
-    font-family: fantasy;
-    padding: auto;
-    margin-bottom: 20px;
-}
-.url {
-    color: black;
-    font-size: 20px;
-    text-align: justify;
-    background: lemonchiffon;
-}
+
+
+
+
+
 
