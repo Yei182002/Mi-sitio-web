@@ -1,0 +1,14 @@
+.box-1 {
+    background: violet;
+    color: black;
+    height: 90px;
+    font-size: 1.7em;
+    margin-bottom: .4em;
+}
+.grillas {
+    margin-bottom: 30px;
+
+}
+.row > [class^="col-"] {
+    border: 1px solid rgb(200, 45, 20);
+}
