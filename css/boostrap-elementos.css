@@ -18,3 +18,21 @@
 .content-6 {
     margin-bottom: 80px;
 }
+.style-espac {
+    margin: 15px;
+}
+.space-img {
+    margin: 60px;
+}
+.card-title {
+    text-align: center;
+}
+.inicio {
+    text-decoration: none;
+    color: brown;
+    background-color: burlywood;
+}
+.inicio:hover {
+    background: black;
+    color: blanchedalmond;
+}
