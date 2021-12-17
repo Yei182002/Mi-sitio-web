@@ -3,11 +3,20 @@ body {
 }
 ul {
    width: 40%;
-   background-color: beige;
+   
    height: 30px;
 }
-a {
-    color: rgb(58, 56, 56);
-    font-size: 20px;
+ul :hover { 
+    color: rgb(0, 0, 0);
     
+}
+a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+a :hover {
+    color: rgb(238, 204, 204);
+    background-color: yellow;
 }
