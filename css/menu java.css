@@ -1,0 +1,13 @@
+body {
+    background-image: url(../img/pexels-jessica-lynn-lewis-1010518.jpg);
+}
+ul {
+   width: 40%;
+   background-color: beige;
+   height: 30px;
+}
+a {
+    color: rgb(58, 56, 56);
+    font-size: 20px;
+    
+}
